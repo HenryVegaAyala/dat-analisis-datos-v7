@@ -10,3 +10,6 @@ print(data_sin_nan)
 
 data_corregida_duplicados = data.drop_duplicates()
 print(data_corregida_duplicados)
+
+data_corregida_duplicados = data.drop_duplicates(subset=["id_factura", "id_cliente"])
+print(data_corregida_duplicados)
