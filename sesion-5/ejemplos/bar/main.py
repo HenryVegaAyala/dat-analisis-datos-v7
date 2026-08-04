@@ -14,10 +14,10 @@ plt.ylabel("Cantidad", fontsize=14)
 
 # Mostrar valores en cada punto
 for x, y in zip(animales, cantidad):
-    # Argumento 1: Posición horizontal
-    # Argumento 2: Posición vertical
+    # Argumento 1: Posición vertical
+    # Argumento 2: Posición horizontal
     # Argumento 3: Texto o valor a mostrar
     # Argumento 4: Alineación horizontal
-    plt.text(x, y + .15, str(y), va="center")
+    plt.text(y, x, str(y), va="center")
 
 plt.show()
