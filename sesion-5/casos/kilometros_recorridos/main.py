@@ -1,6 +1,4 @@
 import matplotlib.pyplot as plt
-from matplotlib.lines import lineStyles
-from openpyxl.chart import marker
 
 semanas = [1, 2, 3, 4]
 kilometros = [2, 5, 4, 8]
