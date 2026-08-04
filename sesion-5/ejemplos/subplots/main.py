@@ -24,7 +24,7 @@ axs[0, 1].set_title("Mensual", fontsize=14)
 axs[0, 1].set_xlabel("Mes")
 axs[0, 1].set_ylabel("Ventas")
 
-# fig.show()
-fig.savefig(
-    "Histograma de ventas.png",
-    bbox_inches="tight", )
+fig.show()
+# fig.savefig(
+#     "Histograma de ventas.png",
+#     bbox_inches="tight", )
